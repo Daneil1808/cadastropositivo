@@ -12,11 +12,11 @@
           <h1 class="logo_text"> Cadastro Positivo de Pecuaristas </h1>
           <a href=""><img class="logo_img" src="img/logo.png" alt="CadastroPositivo"></a>
           <ul class="right light hide-on-med-and-down ul">
-            <li>Olá, Administrador!</li>
+            <li><a>Olá, Administrador!</a></li>
             <li><a href="#sobre">Ver Perfil</a></li>
             <li><a href="C:\Users\danie\Desktop\Cadastro_Positivo\index.html">Sair</a></li>
           </ul>
-          <a href="#menu-mobile" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
+          <a href="#menu-mobile" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons blue-logo">menu</i></a>
         </div>
       </nav>
     </div>
@@ -73,10 +73,10 @@
 </div>
 </article>
 </div>
-<footer class="rodape">
+<footer class="rodape" >
   <div style="margin-left: 60px;" class="row container center">
-    <img src="img/logo.png" class="logo_img">
-    <p class="light green-text">© Cadastro Positivo de Pecuaristas - Zetta Lab </p>
+    <img src="img/whitelogo.png" class="logo_img">
+    <p class="light white-text">© Cadastro Positivo de Pecuaristas - Zetta Lab </p>
   </div>        
 </footer>
 </section>

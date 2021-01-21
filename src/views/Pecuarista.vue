@@ -4,7 +4,7 @@
     <ul class="side-nav" id="menu-mobile">
 			<li><a class="hide-menu">Olá, Pecuarista!</a></li>
 			<li><a class="hide-menu">Ver Perfil</a></li>
-      <li><a class="hide-menu" href="">Sair</a></li>
+      <li><a class="hide-menu" href="/">Sair</a></li>
 		</ul>
       <div class="navbar-fixed">
         <nav class="navbar z-depth-0">
@@ -14,15 +14,15 @@
               ><img class="logo_img" src="img/logo.png" alt="CadastroPositivo"
             /></a>
             <ul class="right light hide-on-med-and-down ul">
-              <li>Olá, Pecuarista!</li>
+              <li><a>Olá, Pecuarista!</a></li>
               <li><a href="#sobre">Ver Perfil</a></li>
               <li>
-                <a href="C:\Users\danie\Desktop\Cadastro_Positivo\index.html"
+                <a href="/"
                   >Sair</a
                 >
               </li>
             </ul>
-            <a href="#menu-mobile" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
+            <a href="#menu-mobile" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons greenIcon">menu</i></a>
           </div>
         </nav>
       </div>
@@ -63,7 +63,7 @@
               <br />
               <div class="row center btn-horario">
                 <a
-                  href="#score-modal"
+                  href="/score"
                   class="btn btn-large blue-logo modal-trigger"
                   ><i class="material-icons left"></i> Gerar Score
                 </a>
@@ -223,8 +223,8 @@
       </div>
       <footer class="rodape">
         <div class="row container center">
-          <img src="img/logo.png" class="logo_img" />
-          <p class="light green-text">
+          <img src="img/whitelogo.png" class="logo_img" />
+          <p class="light white-text">
             © Cadastro Positivo de Pecuaristas - Zetta Lab
           </p>
         </div>

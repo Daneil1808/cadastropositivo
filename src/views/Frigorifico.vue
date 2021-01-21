@@ -12,9 +12,9 @@
                     <h1 class="logo_text"> Cadastro Positivo de Pecuaristas </h1>
                     <a href=""><img class="logo_img" src="img/logo.png" alt="CadastroPositivo"></a>
                     <ul class="right light hide-on-med-and-down ul">
-                        <li>Olá, Frigorífico!</li>
-                        <li><a href="#sobre">Ver Perfil</a></li>
-                        <li><a href="C:\Users\danie\Desktop\Cadastro_Positivo\index.html">Sair</a></li>
+                        <li><a style="color:#673a01" class="brownIcon">Olá, Frigorífico!</a></li>
+                        <li><a style="color:#673a01" href="#sobre">Ver Perfil</a></li>
+                        <li><a style="color:#673a01" href="C:\Users\danie\Desktop\Cadastro_Positivo\index.html">Sair</a></li>
                     </ul>
                     <a href="#menu-mobile" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
                 </div>
@@ -35,7 +35,7 @@
    <div class="card">
     <div class="card-image">   
         <img src="img/score.jpg" alt="Pilates" class="materialboxed">
-        <a href="#pilates-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
+        <a href="#pilates-modal" class="btn btn-floating halfway-fab brown modal-trigger">
           <i class="material-icons">info</i>
       </a>    								
   </div>
@@ -43,7 +43,7 @@
    <h3 class="card-title"> Score do Pecuarista </h3>
    <p class="light"> Dentro do CPP o frigorífico pode verificar se o produtor está ou não de acordo com as leis ambientais analisando o seu score. </p> <br>
    <div class="row center btn-horario">
-    <a href="#login-modal" class="btn btn-large blue-logo modal-trigger"><i class="material-icons left"></i> Analisar Score </a>
+    <a href="#login-modal" class="btn btn-large brown modal-trigger"><i class="material-icons left"></i> Analisar Score </a>
 </div>
 </div>
 </div>
@@ -70,14 +70,14 @@
 </ul>
 </div>
 <div class="modal-footer">
-    <a class="btn blue-logo modal-action modal-close"> Sair </a>
+    <a class="btn brown modal-action modal-close"> Sair </a>
 </div>
 </div>
 <article class="col s12 m6 l6">
  <div class="card">
     <div class="card-image">
        <img src="img/lista.png" alt="Nutrição" class="materialboxed">
-       <a href="#nutricao-modal" class="btn btn-floating halfway-fab blue-logo modal-trigger">
+       <a href="#nutricao-modal" class="btn btn-floating halfway-fab brown modal-trigger">
           <i class="material-icons">info</i>
       </a>    				
   </div>
@@ -85,7 +85,7 @@
    <h3 class="card-title"> Lista de Pecuaristas</h3>
    <p class="light"> No CPP é possível pelo frigorífico ter a lista de pecuaristas cadastrados e seus respectivos contatos.</p><br>
    <div class="row center btn-horario">
-    <a href="#login-modal" class="btn btn-large blue-logo modal-trigger"><i class="material-icons left"></i> Listar Pecuaristas </a>
+    <a href="#login-modal" class="btn btn-large brown modal-trigger"><i class="material-icons left"></i> Listar Pecuaristas </a>
 </div>
 </div>
 </div>
@@ -93,8 +93,8 @@
     </div>
     <footer class="rodape">
   <div style="margin-left: 60px;" class="row container center">
-    <img src="img/logo.png" class="logo_img">
-    <p class="light green-text">© Cadastro Positivo de Pecuaristas - Zetta Lab </p>
+    <img src="img/whitelogo.png" class="logo_img">
+    <p class="light white-text">© Cadastro Positivo de Pecuaristas - Zetta Lab </p>
   </div>        
 </footer>
 </section>
