@@ -377,7 +377,7 @@
         </article>
       </div>
       <div class="row center btn-horario">
-        <a href="#login-modal" class="btn btn-large blue-logo modal-trigger"
+        <a href="#horarios-modal" class="btn btn-large blue-logo modal-trigger"
           ><i class="material-icons left"></i> Entrar no Cadastro Positivo
         </a>
       </div>
