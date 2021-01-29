@@ -62,11 +62,7 @@
               </p>
               <br />
               <div class="row center btn-horario">
-                <a
-                  href="/score"
-                  class="btn btn-large blue-logo"
-                  ><i class="material-icons left"></i> Gerar Score
-                </a>
+                <router-link class="btn btn-large blue-logo" to="/score"><i class="material-icons left"></i> Gerar Score</router-link>
               </div>
             </div>
           </div>

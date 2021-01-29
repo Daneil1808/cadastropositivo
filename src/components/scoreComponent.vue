@@ -15,7 +15,7 @@
             /></a>
             <ul class="right light hide-on-med-and-down ul">
               <li><a>Olá, Pecuarista!</a></li>
-              <li><a href="/pecuarista">Home</a></li>
+              <li><router-link to="/pecuarista">Home</router-link></li>
               <li><a href="#sobre">Ver Perfil</a></li>
               <li>
                 <a href="/"
@@ -67,7 +67,14 @@
 </template>
 <script>
 import axios from "axios";
+import store from '../store';
 export default {
+  computed: {
+    idUser(){
+      return store.state.id
+    }
+
+  },
   mounted() {
     this.api();
   },
@@ -95,7 +102,7 @@ export default {
     async api() {
       // DUMMY DATA do api
       await axios
-        .post("https://cpp-api.herokuapp.com/buscaCadastroPositivo", { id: 11})
+        .post("https://cpp-api.herokuapp.com/buscaCadastroPositivo", { id: this.idUser })
         .then((res) => {
           this.score = res.data.score;
           for (let j = 0; j < 5; j++) {

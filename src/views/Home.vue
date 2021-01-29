@@ -534,6 +534,7 @@
 
 <script>
 import axios from "axios"
+import store from '../store'
 export default {
   data() {
     return {
@@ -584,8 +585,8 @@ export default {
     console.log("postAPI");
     const res = await axios.post('https://cpp-api.herokuapp.com/loginPecuarista', 
     {cnpj: this.cnpj, senha: this.senha})
-    console.log(res)
-    console.log(res.data)
+    store.commit("setId", res.data.id)
+    console.log(res.data.id)
     this.$router.push('/pecuarista')
     },
   },
